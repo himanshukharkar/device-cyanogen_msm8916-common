@@ -1,0 +1,20 @@
+cc_library_static {
+    name: "libinit_msm8916",
+    recovery_available: true,
+
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init",
+        "external/selinux/libselinux/include",
+    ],
+    cflags: ["-Wall"],
+
+    srcs: [
+        "init_msm8916.cpp",
+        "init_wt88047.cpp",
+    ],
+    static_libs: [
+        "libbase",
+        "libselinux",
+    ],
+}
