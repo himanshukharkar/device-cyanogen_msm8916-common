@@ -25,6 +25,7 @@ TARGET_NO_BOOTLOADER := true
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PHONY_TARGETS := true
+TARGET_FLATTEN_APEX := true
 
 # Architecture
 ifneq ($(FORCE_32_BIT),true)
