@@ -179,11 +179,8 @@ endif
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8916
+    android.hardware.power@1.2-service-qti
 
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service
 
 # Radio
 PRODUCT_PACKAGES += \
