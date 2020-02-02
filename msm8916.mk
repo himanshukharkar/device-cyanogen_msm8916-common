@@ -61,14 +61,9 @@ PRODUCT_PACKAGES += \
 # Boot Animtion
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
-
 # Charger
 PRODUCT_PACKAGES += \
     chargeonlymode
-
 # Display
 PRODUCT_PACKAGES += \
     gralloc.msm8916 \
