@@ -239,7 +239,7 @@ service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
 on property:sys.boot_completed=1
     restart cameraserver
 
-service qseecomd /system/vendor/bin/qseecomd
+service vendor.qseecomd /system/vendor/bin/qseecomd
     class core
     user root
     group root
